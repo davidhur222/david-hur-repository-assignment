@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="login-form">
+            <H1> Sign in </H1>
+            <div class="flex-input">
+                <label for="">Username</label>
+                <input type="text" name="" id="" >
+            </div>
+            <div class="flex-input">
+                <label for="">Password</label>
+                <input type="Password" name="" id="">
+            </div>
+            <input type="button" value="LOGIN">
+            <div class="flex-container">
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <span>Remember me</span>
+                    
+                </div>
+                <div style="text-align:right;">
+                    <a href="#"> Forget Password?</a>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+
+<style>
+
+    .flex-container {
+        display:flex;
+    }
+
+    .flex-container div {
+        flex: 1;
+    }
+    .container {
+        background-image: url('https://m.media-amazon.com/images/I/716wvY1X3-L._AC_SY879_.jpg');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        align-items: center;
+    }
+    .login-form {
+        background-color: rgb(221, 221, 70, 0.5);
+        padding: 7px;
+        width: 300px;
+        box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+      -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+      -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+      border-radius:25px;
+    }
+    .flex-input {
+        display: flex;
+        flex-direction: row;
+
+    }
+    input[type="text"], [type="Password"] {
+        padding: 10px;
+        font-size:medium;
+    }
+
+    label {
+        flex-basis: 130px;
+        margin-top: 10px;
+        font-size: 20px ;
+    }
+
+    input[type="button"] {
+        width:auto;
+        font-size: medium;
+        padding: 10px;
+        background-color: rgb(48, 48, 179);
+        color:aliceblue;
+        border: none;
+        margin: 20px;
+        
+    }
+
+    input[type="button"]:hover {
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+
+</style>
+</html>
